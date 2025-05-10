@@ -71,4 +71,4 @@ EOF
 echo "✅ docker-compose.yml created."
 
 echo "🚀 Starting Aztec node..."
-docker compose --env-file .env up -d
+docker-compose --env-file .env up -d
