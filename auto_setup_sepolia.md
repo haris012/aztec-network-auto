@@ -18,7 +18,7 @@ This guide walks you through setting up a Sepolia Ethereum node (Geth + Lighthou
 ### Execute the following one-liner to download and run the installation script
 
 ```bash
-curl -sL https://raw.githubusercontent.com/cerberus-node/aztec-network/refs/heads/main/auto-setup-sepolia.sh -o auto-setup-sepolia.sh && chmod +x auto-setup-sepolia.sh && bash auto-setup-sepolia.sh
+curl -sL https://raw.githubusercontent.com/haris012/aztec-network-auto/refs/heads/main/auto-setup-sepolia.sh -o auto-setup-sepolia.sh && chmod +x auto-setup-sepolia.sh && bash auto-setup-sepolia.sh
 
 ```
 This will:
