@@ -119,7 +119,7 @@ fi
 
 echo ">>> Starting Sepolia node with Docker Compose..."
 cd "$DATA_DIR"
-docker compose up -d
+docker-compose up -d
 
 echo ">>> ✅ Setup complete. Use the following commands to check status:"
 echo "  docker logs -f geth"
